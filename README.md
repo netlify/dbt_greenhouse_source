@@ -7,7 +7,7 @@ This package enriches your Fivetran data by doing the following:
 * Adds column-level testing where applicable. For example, all primary keys are tested for uniqueness and non-null values.
 * Models staging tables, which will be used in our transform package
 
-## Models 
+## Model 
 
 This package contains staging models, designed to work simultaneously with our [Greenhouse modeling package](https://github.com/fivetran/dbt_greenhouse). The staging models:
 * Remove any rows that are soft-deleted
